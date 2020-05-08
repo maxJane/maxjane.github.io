@@ -1,2 +1,0 @@
-# maxjane.github.io
-..

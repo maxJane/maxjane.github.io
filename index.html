@@ -1,0 +1,240 @@
+<!--
+ * @Author: Jane
+ * @Date: 2020-04-18 21:10:13
+ * @LastEditTime: 2020-05-09 00:22:23
+ * @LastEditors: Please set LastEditors
+ * @Description: 
+ -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="./index.css" type="text/css" rel="stylesheet">
+   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+   <title>Document</title>
+ </head>
+ <script>
+   window.onload = function() {
+    var offWidth = window.screen.width;    // 获取设备宽度
+  //  通常把设计稿按照1rem =100px设置，好换算，假设设计稿宽度为移动端的375px，换算如下：
+    var remvp = offWidth * (100 / 1284)
+     document.getElementsByTagName("html")[0].style.fontSize = remvp + 'px';         //把转换的值赋值给顶级标签html的font-size属性（即1rem的标准参考物）
+   }
+ </script>
+ <body>
+   <section class="main">
+    <section class="floor floor_one">
+      <!-- 导航 -->
+      <div class="nav_top">
+        <ul class="nav_menu">
+          <li class="logo"></li>
+          <li class="menu_item">Footwear</li>
+          <li class="menu_item">Clothing</li>
+          <li class="menu_item">Accessories</li>
+          <li class="menu_item">Brands</li>
+          <li class="menu_item">Exclusive</li>
+        </ul>
+        <ul class="nav_menu">
+          <li class="menu_item">
+            <img class="image" src="./static/image/seek.png"/>
+            Search
+          </li>
+          <li class="menu_item">
+            <img class="image" src="./static/image/shopping.png"/>
+            Cart
+            <span class="highlight">(2)</span>
+          </li>
+          <li class="menu_item">
+            <img class="image" src="./static/image/user.png"/>
+            Sign in
+          </li>
+        </ul>
+      </div>
+      <!-- 导航end -->
+      <div class="product">
+        <img class="goods" src="./static/image/goods.png"/>
+      </div>
+      <div class="text_info">
+          <p class="text brand_text">Nike</p>
+          <p class="text title_text">AIR MAX TAVAS SD</p>
+          <p class="text price_text">$ 160.00</p>
+          <p class="text slogen_text">
+            Colors - <span class="text colour_text">
+              Black/Pink Pow/Tour Yellow/White 
+            </span>
+          </p>
+          <div class="option_info">
+            <div class="option">
+              <img class="shoes" src="./static/image/shoes_1.png"/>
+            </div>
+            <div class="option">
+              <img class="shoes" src="./static/image/shoes_2.png"/>
+            </div>
+          </div>
+          <p class="text charts">Size charts</p>
+          <div class="size_info">
+            <div class="size"></div>
+            <div class="size btn"></div>
+          </div>
+      </div>
+    </section>
+    <section class="floor floor_two">
+      <!-- <img class="shoes" src="./static/image/shoes_bg.png"/> -->
+      <div class="text">
+        <p class="content content_title">CLASSIC CUSHIONING. MODERN COMFORT.</p>
+        <p class="content">The Nike Air Max Tavas SD Men's Shoe recalls the profile of <br>
+        the iconic running original with a Max Air unit in the heel <br>
+        and multi-surface Waffle outsole. A lightweight upper and <br>
+        gradient detail offer a comfortable fit and dynamic look.</p>
+      </div>
+    </section>
+    <section class="floor floor_three">
+      <div class="text">
+        <p class="text_title">Story</p>
+        <p class="text_info">NIKE AIR MAX ORIGINS</p>
+        <p class="text_content describe">Nike's revolutionary Air-Sole unit made its way into Nike<br>
+          footwear in the late '70s. In 1987, the Nike Air Max 1<br>
+          debuted with visible air in its heel, allowing fans more than<br>
+          just the feel of Air-Sole comfort</p>
+        <p class="text_title name">BENEFITS</p>
+        <p class="title">
+          Layered textile/synthetic upper 
+        </p>
+        <p class="content">
+          for lightweight durability and comfort 
+        </p>
+        <p class="title">
+          Injected Phylon midsole doubles 
+        </p>
+        <p class="content">
+          Outsole to reduce the overall weight of the shoe 
+        </p>
+        <p class="title">
+          Max Air heel unit 
+        </p>
+        <p class="content">
+          delivers maximum lightweight cushioning 
+        </p>
+        <p class="title">
+          Rubber Waffle outsole 
+        </p>
+        <p class="content">
+          Durable, multi-surface traction
+        </p>
+      </div>
+      <div class="options">
+       <p class="the_text title">Nike</p>
+       <p class="the_text model">Air max Tavas SD</p>
+       <p class="the_text content">Black/Pink Pow/Tour Yellow/White</p>
+       <img class="goods_three" src="./static/image/goods_three.png" />
+       <div class="info">
+        <p class="en_stock">En stock</p>
+        <p class="price">$160.00</p>
+       </div>
+       <div class="mian_btn">
+         <div class="btn size"></div>
+         <div class="btn add"></div>
+       </div>
+
+      </div>
+    </section>
+    <section class="floor floor_four">
+       <p class="text social">social</p>
+       <p class="text name">#NIKEAIRMAX</p>
+       <div class="img_four">
+         <img class="img" src="./static/image/social_o.png"/>
+         <img class="img" src="./static/image/social_w.png"/>
+         <img class="img" src="./static/image/social_t.png"/>
+         <img class="img" src="./static/image/social_f.png"/>
+       </div>
+    </section>
+    <section class="floor floor_five">
+      <section class="item top">
+        <section class="top_item">
+          <div class="item_box">
+          <img class="item_img" src="./static/image/goods_three.png" />
+          </div>
+          <div class="item_info">
+            <p class="text title">Nike</p>
+            <p class="text info">Air Max Tavas SD</p>
+            <p class="text price">$160.00</p>
+          </div>
+        </section>
+
+        <section class="top_item">
+          <div class="item_box">
+          <img class="item_img" src="./static/image/img@2x.png" />
+          </div>
+          <div class="item_info">
+            <p class="text title">Nike</p>
+            <p class="text info">Air Max Tavas SD</p>
+            <p class="text price">$160.00</p>
+          </div>
+        </section>
+
+        <section class="top_item">
+          <div class="item_box">
+          <img class="item_img" src="./static/image/img@2x(1).png" />
+          </div>
+          <div class="item_info">
+            <p class="text title">Nike</p>
+            <p class="text info">Air Max Tavas SD</p>
+            <p class="text price">$160.00</p>
+          </div>
+        </section>
+
+        <section class="top_item">
+          <div class="item_box">
+          <img class="item_img" src="./static/image/img@2x(2).png" />
+          </div>
+          <div class="item_info">
+            <p class="text title">Nike</p>
+            <p class="text info">Air Max Tavas SD</p>
+            <p class="text price">$160.00</p>
+          </div>
+        </section>
+         <section class="top_item">
+           <div class="title_box">
+             <p class="info">New arrivals</p>
+             <p class="title">Jacket</p>
+           </div>
+           <div class="img_box">
+            <img class="item_img" src="./static/image/img@2x(3).png" />
+           </div>
+         </section>
+      </section>
+      <section class="item footer">
+        <div class="item">
+          <div class="img_box">
+            <img class="goods_three" src="./static/image/img@2x(4).png" />
+          </div>
+          <div class="item_info">
+            <p class="gods_btn">News</p>
+            <p class="title">News</p>
+            <p class="info">Black Leather Biker Jacket </p>
+            <p class="info_text">Supple leather biker jacket in black. Silver-tone hardware. Band collar fastened at press-stud closure. Ribbed detailing at shoulders. </p>
+            <p class="price">$410.00 </p>
+          </div>
+        </div>
+        <div class="item">
+          <img class="goods_three" src="./static/image/img@2x(5).png" />
+          <div class="item_info">
+            <!-- <p class="gods_btn">News</p> -->
+            <p class="title">News</p>
+            <p class="info">Black Leather Biker Jacket </p>
+            <p class="price">$410.00 </p>
+          </div>
+        </div>
+        <div class="item">
+          <p class="title">Brand</p>
+          <img class="goods_three_logo" src="./static/image/logo@2x.png" />
+          <p class="text">We make the little shit better. The stuff you have that isn't noticed first, but can't be ignored. We pay attention to it. We argue about it. We work day and night to make the little shit as good as it can be, so when you wear it, you feel like you've got a leg up on the rest of the world.</p>
+          <p class="text_to">Shop brand</p>
+        </div>
+      </section>
+    </section>
+   </section>
+
+ </body>
+ </html>
