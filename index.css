@@ -114,13 +114,13 @@ html {
 }
 .floor_one .text_info {
   padding-left: 0.9rem;
-  animation: text 2s;
+  animation: text_info 2s;
 }
-@keyframes text {
+@keyframes text_info {
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
-@-webkit-keyframes text {
+@-webkit-keyframes text_info {
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
